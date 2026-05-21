@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Gravity Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+</head>
+<body>
+    <div id="ui-layer">
+        ...
+    </div>
+    <canvas id="physics-layer"></canvas>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav-link">GMAIL</a>
+            <a href="#" class="nav-link">IMAGES</a>
+            <div class="nav-spacer"></div>
+            <button class="nav-apps">📱</button>
+            <button class="nav-account">👤</button>
+        </nav>
+    </header>
+    <main class="main">
+        
+        <div class="logo physics-item">
+            <h1>
+                <span class="blue">G</span>
+                <span class="red">O</span>
+                <span class="yellow">O</span>
+                <span class="blue">O</span>
+                <span class="green">G</span>
+                <span class="red">L</span>
+                <span class="green">E</span>
+            </h1>
+        </div>
+        
+        <form class="search-container physics-item">
+            <div class="search-bar">
+             <label for="search" class="sr-only" input id="search" > SEARCH </label>
+
+            </div>
+            <div class="search-buttons">
+                <button type="button" class="btn google-btn">Google Search</button>
+                <button type="button" class="btn lucky-btn">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <a href="#" class="footer-link">Advertising</a>
+            <a href="#" class="footer-link">Business</a>
+        </div>
+        <div class="footer-section">
+            <a href="#" class="footer-link">How Search Works</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
